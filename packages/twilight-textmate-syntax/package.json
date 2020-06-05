@@ -1,0 +1,42 @@
+{
+  "_from": "https://www.atom.io/api/packages/twilight-textmate-syntax/versions/0.1.19/tarball",
+  "_id": "twilight-textmate-syntax@0.1.19",
+  "_inBundle": false,
+  "_integrity": "sha512-rB9PGaISqR2xXkkOuJRgRP4ljUXXASPmd3uf3hnXzyvYUwwq2dfECfws9UDBbW3X0uG9gQ77lY+skvix+U16LA==",
+  "_location": "/twilight-textmate-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/twilight-textmate-syntax/versions/0.1.19/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/twilight-textmate-syntax/versions/0.1.19/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/twilight-textmate-syntax/versions/0.1.19/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/twilight-textmate-syntax/versions/0.1.19/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/twilight-textmate-syntax/versions/0.1.19/tarball",
+  "_shasum": "ba8b18b7dde1acf7026251c447179652e784794b",
+  "_spec": "https://www.atom.io/api/packages/twilight-textmate-syntax/versions/0.1.19/tarball",
+  "_where": "/tmp/apm-install-dir-1181014-21744-l0r1m6.7hvba",
+  "bugs": {
+    "url": "https://github.com/msmiley/twilight-textmate-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "A syntax theme for the Atom Editor which aims to render as close as possible to the way Twilight renders on TextMate2",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/msmiley/twilight-textmate-syntax#readme",
+  "license": "MIT",
+  "name": "twilight-textmate-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msmiley/twilight-textmate-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.1.19"
+}

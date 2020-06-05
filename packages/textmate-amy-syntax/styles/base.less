@@ -1,0 +1,239 @@
+@import "syntax-variables";
+
+atom-text-editor, :host {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
+}
+
+atom-text-editor .gutter, :host .gutter {
+  background-color: @syntax-gutter-background-color;
+  color: @syntax-gutter-text-color;
+}
+
+atom-text-editor .gutter .line-number.cursor-line, :host .gutter .line-number.cursor-line {
+  background-color: @syntax-gutter-background-color-selected;
+  color: @syntax-gutter-text-color-selected;
+}
+
+atom-text-editor .gutter .line-number.cursor-line-no-selection, :host .gutter .line-number.cursor-line-no-selection {
+  color: @syntax-gutter-text-color-selected;
+}
+
+atom-text-editor .wrap-guide, :host .wrap-guide {
+  color: @syntax-wrap-guide-color;
+}
+
+atom-text-editor .indent-guide, :host .indent-guide {
+  color: @syntax-indent-guide-color;
+}
+
+atom-text-editor .invisible-character, :host .invisible-character {
+  color: @syntax-invisible-character-color;
+}
+
+atom-text-editor .search-results .marker .region, :host .search-results .marker .region {
+  background-color: transparent;
+  border: @syntax-result-marker-color;
+}
+
+atom-text-editor .search-results .marker.current-result .region, :host .search-results .marker.current-result .region {
+  border: @syntax-result-marker-color-selected;
+}
+
+atom-text-editor.is-focused .cursor, :host(.is-focused) .cursor {
+  border-color: @syntax-cursor-color;
+}
+
+atom-text-editor.is-focused .selection .region, :host(.is-focused) .selection .region {
+  background-color: @syntax-selection-color;
+}
+
+atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-editor.is-focused .line.cursor-line, :host(.is-focused) .line-number.cursor-line-no-selection, :host(.is-focused) .line.cursor-line {
+  background-color: rgba(128, 0, 0, 0.25);
+}
+
+.comment.block {
+  font-style: italic;
+  color: #404080;
+  background-color: #200020;
+}
+
+.string {
+  color: #999999;
+}
+
+.constant.language {
+  color: #707090;
+}
+
+.constant.numeric {
+  color: #7090B0;
+}
+
+.constant.numeric.integer.int32 {
+  font-weight: bold;
+}
+
+.constant.numeric.integer.int64 {
+  font-style: italic;
+}
+
+.constant.numeric.integer.nativeint {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.constant.numeric.floating-point.ocaml {
+  text-decoration: underline;
+}
+
+.constant.character {
+  color: #666666;
+}
+
+.constant.language.boolean {
+  color: #8080A0;
+}
+
+.constant.language {
+}
+
+.constant.other {
+}
+
+.variable.language, .variable.other {
+  color: #008080;
+}
+
+.keyword {
+  color: #A080FF;
+}
+
+.keyword.operator {
+  color: #A0A0FF;
+}
+
+.keyword.other.decorator {
+  color: #D0D0FF;
+}
+
+.keyword.operator.infix.floating-point.ocaml {
+  text-decoration: underline;
+}
+
+.keyword.operator.prefix.floating-point.ocaml {
+  text-decoration: underline;
+}
+
+.keyword.other.directive {
+  color: #C080C0;
+}
+
+.keyword.other.directive.line-number {
+  text-decoration: underline;
+  color: #C080C0;
+}
+
+.keyword.control {
+  color: #80A0FF;
+}
+
+.storage {
+  color: #B0FFF0;
+}
+
+.entity.name.type.variant {
+  color: #60B0FF;
+}
+
+.storage.type.variant.polymorphic, .entity.name.type.variant.polymorphic {
+  font-style: italic;
+  color: #60B0FF;
+}
+
+.entity.name.type.module {
+  color: #B000B0;
+}
+
+.entity.name.type.module-type.ocaml {
+  text-decoration: underline;
+  color: #B000B0;
+}
+
+.support.other {
+  color: #A00050;
+}
+
+.entity.name.type.class {
+  color: #70E080;
+}
+
+.entity.name.type.class-type {
+  color: #70E0A0;
+}
+
+.entity.other.inherited-class {
+}
+
+.entity.name.function {
+  color: #50A0A0;
+}
+
+.variable.parameter {
+  color: #80B0B0;
+}
+
+.entity.name.type.token {
+  color: #3080A0;
+}
+
+.entity.name.type.token.reference {
+  color: #3CB0D0;
+}
+
+.entity.name.function.non-terminal {
+  color: #90E0E0;
+}
+
+.entity.name.function.non-terminal.reference {
+  color: #C0F0F0;
+}
+
+.entity.name.tag {
+  color: #009090;
+}
+
+.entity.other.attribute-name {
+}
+
+.support.constant {
+  background-color: #200020;
+}
+
+.support.type, .support.class {
+}
+
+.support.other.variable {
+}
+
+.invalid.illegal {
+  font-weight: bold;
+  color: #400080;
+  background-color: #FFFF00;
+}
+
+.invalid.deprecated {
+  color: #200020;
+  background-color: #CC66FF;
+}
+
+.source.camlp4.embedded {
+  background-color: rgba(64, 0, 128, 0.33);
+}
+
+.source.camlp4.embedded.parser.ocaml {
+}
+
+.punctuation {
+  color: #805080;
+}

@@ -1,0 +1,15 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.main {
+  display: flex;
+  width: 100vw;
+  height: 100vw;
+  align-content: center;
+
+  color: white;
+
+  background-color: rgb(51,51,51);
+}

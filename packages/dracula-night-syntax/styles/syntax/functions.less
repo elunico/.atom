@@ -1,0 +1,21 @@
+.syntax--function {
+   &.syntax--name {
+      // function declaration
+      &.syntax--declaration {
+         color: @syntax-color-function;
+      }
+      color: @syntax-color-function;
+   }
+}
+
+// parameter in declaration
+.syntax--parameter.syntax--variable {
+   color: @base_orange;
+}
+
+// Function invocation
+.syntax--meta.syntax--method-call {
+   .syntax--name.syntax--function {
+      color: @base_cyan;
+   }
+}

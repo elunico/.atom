@@ -1,0 +1,49 @@
+// This defines all syntax variables that syntax themes must implement when they
+// include a syntax-variables.less file.
+
+// General colors
+@syntax-text-color: #8FA1B2;
+@syntax-cursor-color: @syntax-text-color;
+@syntax-selection-color: #35466A; // mix(#5675B9, @syntax-background-color)
+@syntax-selection-flash-color: @syntax-selection-color;
+@syntax-background-color: #14171A;
+
+// Guide colors
+@syntax-wrap-guide-color: #343C45;
+@syntax-indent-guide-color: @syntax-wrap-guide-color;
+@syntax-invisible-character-color: @syntax-wrap-guide-color;
+
+// For find and replace markers
+@syntax-result-marker-color: fade(#FF0, 40%);
+@syntax-result-marker-color-selected: @syntax-selection-color;
+
+// Gutter colors
+@syntax-gutter-text-color: #5F7387;
+@syntax-gutter-text-color-selected: @syntax-gutter-text-color;
+@syntax-gutter-background-color: @syntax-background-color;
+@syntax-gutter-background-color-selected: @syntax-background-color;
+
+// For git diff info. i.e. in the gutter
+@syntax-color-added: mix(#0F0, @syntax-background-color, 60%);
+@syntax-color-modified: mix(#FF8000, @syntax-background-color, 60%);
+@syntax-color-removed: mix(#F00, @syntax-background-color, 60%);
+@syntax-color-renamed: mix(#00F, @syntax-background-color, 60%);
+
+// These colors are specific to the theme. Do not use in a package!
+
+@syntax-bracket-matcher: mix(#FFF, @syntax-background-color, 25%);
+@syntax-comment: #757873;
+@syntax-constant: #EB5368;
+@syntax-cursor-line: fade(@syntax-selection-color, 30%);
+@syntax-entity: #46AFE3;
+@syntax-keyword: #D99B28;
+@syntax-markup-attribute: @syntax-entity;
+@syntax-markup-tag: #DF80FF;
+@syntax-numeric: #70BF53;
+@syntax-property: @syntax-entity;
+@syntax-string: #D96629;
+@syntax-style-at-rule: @syntax-entity;
+@syntax-style-class: @syntax-entity;
+@syntax-style-id: @syntax-markup-tag;
+@syntax-support: @syntax-markup-tag;
+@syntax-variable: @syntax-entity;

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Curve Creator</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script>
+
+</head>
+<body>
+  <div id="canvas-container"></div>
+
+</body>
+<input type="number" id="ch" placeholder="canvas height"/>
+<input type="number" id="cw" placeholder="canvas width"/>
+<br>
+<input type="checkbox" id="rel-box" value="Absolute Positions?"/>
+<br/>
+<input type="button" id="to-tag-btn" value="Download <path> tag"/>
+<input type="button" id="to-p5-btn" value="Download as p5 commands"/>
+<script src="point.js"></script>
+<script src="bezier.js"></script>
+<script src="index.js"></script>
+</html>

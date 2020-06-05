@@ -1,0 +1,47 @@
+{
+  "_from": "https://www.atom.io/api/packages/textmate-cobalt-syntax/versions/0.1.0/tarball",
+  "_id": "textmate-cobalt-syntax@0.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-WU/WZB1R+/zADTbuEwo9yILKy5ik5ihq69Or+UJ34YFQepI5KzyLDezy/iRVr+BfIzLLwbkX4mG0839Cp5aJeQ==",
+  "_location": "/textmate-cobalt-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/textmate-cobalt-syntax/versions/0.1.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/textmate-cobalt-syntax/versions/0.1.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/textmate-cobalt-syntax/versions/0.1.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/textmate-cobalt-syntax/versions/0.1.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/textmate-cobalt-syntax/versions/0.1.0/tarball",
+  "_shasum": "1373ebaf1d012ca84772d4a71e70f3facc5d5c58",
+  "_spec": "https://www.atom.io/api/packages/textmate-cobalt-syntax/versions/0.1.0/tarball",
+  "_where": "/tmp/apm-install-dir-1181014-22080-1dnf8wg.s072i",
+  "bugs": {
+    "url": "https://github.com/phthhieu/textmate-cobalt-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Textmate cobalt syntax theme for Atom",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/phthhieu/textmate-cobalt-syntax#readme",
+  "keywords": [
+    "syntax",
+    "theme",
+    "textmate",
+    "cobalt"
+  ],
+  "license": "MIT",
+  "name": "textmate-cobalt-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phthhieu/textmate-cobalt-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.1.0"
+}

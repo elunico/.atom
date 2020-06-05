@@ -1,0 +1,33 @@
+#mainTitle {
+  color: white;
+  background-color: var(--my-green-color);
+  font-family: var(--my-main-font), monospace;
+  font-size: 8vw;
+  text-align: center;
+  line-height: normal !important;
+}
+
+#welcome {
+  color: var(--my-green-color);
+  font-family: var(--my-main-font), monospace;
+  line-height: normal !important;
+  font-size: 4vw;
+  text-align: center;
+}
+
+.medialinks {
+  height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.medialink {
+  transition: opacity var(--my-button-fade-time) linear, transform 75ms linear !important;
+  margin: 25px;
+  opacity: 0;
+}
+
+.medialink:hover {
+  transform: scale(0.88);
+}

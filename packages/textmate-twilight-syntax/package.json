@@ -1,0 +1,47 @@
+{
+  "_from": "https://www.atom.io/api/packages/textmate-twilight-syntax/versions/0.1.0/tarball",
+  "_id": "textmate-twilight-syntax@0.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-Px6Ic+fBPMebIFm1KtE9HinPaMUxtPDhc/nW1gf+NvHmbiItDn3kCzwUrmtALuHPqKgPB0JH9ScD2ltIIt6GZw==",
+  "_location": "/textmate-twilight-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/textmate-twilight-syntax/versions/0.1.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/textmate-twilight-syntax/versions/0.1.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/textmate-twilight-syntax/versions/0.1.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/textmate-twilight-syntax/versions/0.1.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/textmate-twilight-syntax/versions/0.1.0/tarball",
+  "_shasum": "adcf27a58f97da624bf230236cbb49fc92cd6aff",
+  "_spec": "https://www.atom.io/api/packages/textmate-twilight-syntax/versions/0.1.0/tarball",
+  "_where": "/tmp/apm-install-dir-1181014-22662-1ps4skv.lrod",
+  "bugs": {
+    "url": "https://github.com/phthhieu/textmate-twilight-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Textmate twilight theme for Atom",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/phthhieu/textmate-twilight-syntax#readme",
+  "keywords": [
+    "syntax",
+    "theme",
+    "textmate",
+    "twilight"
+  ],
+  "license": "MIT",
+  "name": "textmate-twilight-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phthhieu/textmate-twilight-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.1.0"
+}

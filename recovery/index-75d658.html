@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>XOR Problem</title>
+  </head>
+
+  <style>
+    .footer {
+      font-size: 0.9em;
+    }
+  </style>
+
+  <script src="lib/matrix.js"></script>
+  <script src="lib/nn.js"></script>
+  <script src="lib/p5.js"></script>
+  <script src="lib/p5.dom.js"></script>
+  <script src="lib/p5.sound.js"></script>
+  <script src="sketch.js"></script>
+  <body>
+<h1>
+XOR Problem with Neural Network
+</h1>
+<p>
+  This sketch solves the XOR problem with a Neural Networkas demonstrated on
+  The Coding Train in <a href="https://www.youtube.com/watch?v=188B6k_F9jU">
+  Coding Challenge 92: XOR Problem</a> by Dan Shiffman on YouTube.
+</p>
+<div id="canvas-container"></div>
+<p>
+  This sketch uses p5.js and the Toy Neural Network library from the video.
+  The left side is the solution space for the problem in 2D and the right
+  side is the graph of the error in the output during training. Note that
+  this graph is only updated once per frame.
+</p>
+<p>
+  Press space to stop and start the learning. Use sliders to adjust the neural network.
+</p>
+<p class="footer">
+  Sketch by Thomas Povinelli.
+</p>
+  </body>
+</html>

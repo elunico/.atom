@@ -1,0 +1,85 @@
+{
+  "_from": "https://www.atom.io/api/packages/firefox-syntax/versions/4.2.0/tarball",
+  "_id": "firefox-syntax@4.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-7AY04DuSoEyORwkVzwbpEdbVWssUjasyvnFcVfbJ8QNc0iOqZhyyiI0GBTufA4mquoh63cy9ava5YvQj2XZQvw==",
+  "_location": "/firefox-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/firefox-syntax/versions/4.2.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/firefox-syntax/versions/4.2.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/firefox-syntax/versions/4.2.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/firefox-syntax/versions/4.2.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/firefox-syntax/versions/4.2.0/tarball",
+  "_shasum": "e28dd0db42d8e523aac1c4d434b580ab8239a511",
+  "_spec": "https://www.atom.io/api/packages/firefox-syntax/versions/4.2.0/tarball",
+  "_where": "/tmp/apm-install-dir-202055-28329-1sc5kwc.je0b",
+  "bugs": {
+    "url": "https://github.com/gt-rios/firefox-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "configSchema": {
+    "subtheme": {
+      "description": "Choose from one of the available subthemes",
+      "type": "string",
+      "default": "default-dark",
+      "enum": [
+        {
+          "value": "default-dark",
+          "description": "Default Dark"
+        },
+        {
+          "value": "default-light",
+          "description": "Default Light"
+        },
+        {
+          "value": "firebug",
+          "description": "Firebug"
+        },
+        {
+          "value": "firefox-48-dark",
+          "description": "Firefox 48 Dark"
+        },
+        {
+          "value": "firefox-48-light",
+          "description": "Firefox 48 Light"
+        },
+        {
+          "value": "firefox-56-dark",
+          "description": "Firefox 56 Dark"
+        },
+        {
+          "value": "firefox-56-light",
+          "description": "Firefox 56 Light"
+        }
+      ]
+    }
+  },
+  "deprecated": false,
+  "description": "Firefox DevTools syntax. Includes different themes",
+  "engines": {
+    "atom": ">=1.13.0 <2.0.0"
+  },
+  "homepage": "https://github.com/gt-rios/firefox-syntax#readme",
+  "keywords": [
+    "firefox",
+    "dark",
+    "light",
+    "syntax"
+  ],
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "firefox-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gt-rios/firefox-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "4.2.0"
+}

@@ -1,0 +1,45 @@
+{
+  "_from": "https://www.atom.io/api/packages/jackhammer-syntax/versions/1.1.0/tarball",
+  "_id": "jackhammer-syntax@1.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-uXaC5VHtgr33c3xOzN5MDeKfwkxspr6US0CaPPp4WPsr9TcMo1I7yUXDzd3JMTbH9L3F7weuNEHSRuAJyht5qg==",
+  "_location": "/jackhammer-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/jackhammer-syntax/versions/1.1.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/jackhammer-syntax/versions/1.1.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/jackhammer-syntax/versions/1.1.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/jackhammer-syntax/versions/1.1.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/jackhammer-syntax/versions/1.1.0/tarball",
+  "_shasum": "6b35eb94b430163926e8a3289c4d297bc45fc3e4",
+  "_spec": "https://www.atom.io/api/packages/jackhammer-syntax/versions/1.1.0/tarball",
+  "_where": "/tmp/apm-install-dir-118109-5947-q31aan.c1hig",
+  "bugs": {
+    "url": "https://github.com/muukii/jackhammer-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Dark and Bright Syntax Theme",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/muukii/jackhammer-syntax#readme",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "license": "MIT",
+  "name": "jackhammer-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muukii/jackhammer-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "1.1.0"
+}

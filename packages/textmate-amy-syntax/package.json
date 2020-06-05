@@ -1,0 +1,47 @@
+{
+  "_from": "https://www.atom.io/api/packages/textmate-amy-syntax/versions/0.1.0/tarball",
+  "_id": "textmate-amy-syntax@0.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-yirm8Xqs7l+p3jp5pXY1Q/oO3WwWCUIFc5tojtrYjpTAzLMNDMVbtAeAczqSKVLsxrRpk08Mt6RGhQ1SXBTp2w==",
+  "_location": "/textmate-amy-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/textmate-amy-syntax/versions/0.1.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/textmate-amy-syntax/versions/0.1.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/textmate-amy-syntax/versions/0.1.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/textmate-amy-syntax/versions/0.1.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/textmate-amy-syntax/versions/0.1.0/tarball",
+  "_shasum": "5d66520a56fc6cf4d7366609797de5b84b2b939d",
+  "_spec": "https://www.atom.io/api/packages/textmate-amy-syntax/versions/0.1.0/tarball",
+  "_where": "/tmp/apm-install-dir-1181014-22505-y3xz8m.vwqwr",
+  "bugs": {
+    "url": "https://github.com/phthhieu/textmate-amy-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Textmate amy theme for Atom",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/phthhieu/textmate-amy-syntax#readme",
+  "keywords": [
+    "syntax",
+    "theme",
+    "textmate",
+    "amy"
+  ],
+  "license": "MIT",
+  "name": "textmate-amy-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phthhieu/textmate-amy-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.1.0"
+}

@@ -1,0 +1,39 @@
+.whole {
+  margin-left: 25vw;
+  margin-right: 25vw;
+  align-items: center;
+}
+
+.whole > * {
+  padding: 1%;
+}
+
+.guess {
+  font-size: 36pt;
+  font-weight: 800;
+  text-align: center;
+  transition: transform 500ms linear;
+}
+
+#barracks {
+  height: 50vh;
+}
+
+#drawing {
+  height: 100%;
+  width: 100%;
+}
+
+#answer {
+  font-family: monospace;
+  font-size: 4vw;
+  letter-spacing: 0.1em;
+}
+
+@media screen and (max-width: 600px) {
+  #answer {
+    font-family: monospace;
+    font-size: 18pt;
+    letter-spacing: 0.1em;
+  }
+}

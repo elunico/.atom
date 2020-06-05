@@ -1,0 +1,45 @@
+@import "dracula-colors";
+
+// This defines all syntax variables that syntax themes must implement
+// when they include a syntax-variables.less file.
+
+// General colors
+@syntax-text-color: @base_fg;
+@syntax-cursor-color: @base_cyan;
+@syntax-selection-color: @misc_selection;
+@syntax-background-color: @base_bg;
+
+// Guide colors
+@syntax-wrap-guide-color: @misc_nonText;
+@syntax-indent-guide-color: @misc_nonText;
+@syntax-invisible-character-color: @misc_nonText;
+
+// For find and replace markers
+@syntax-result-marker-color: fade(@base_white, 40);
+@syntax-result-marker-color-selected: fade(@base_orange, 80);
+
+// Gutter colors
+@syntax-gutter-text-color: @misc_comment;
+@syntax-gutter-text-color-selected: @base_cyan;
+@syntax-gutter-background-color: transparent;
+@syntax-gutter-background-color-selected: transparent;
+
+// For git diff info. i.e. in the gutter
+@syntax-color-renamed: fade(@base_cyan,80);
+@syntax-color-added: fade(@base_green,80);
+@syntax-color-modified: fade(@base_orange,80);
+@syntax-color-removed: fade(@base_red,80);
+
+// For language entity colors
+@syntax-color-variable: @base_fg;
+@syntax-color-constant: @base_orange;
+@syntax-color-property: @base_fg;
+@syntax-color-value: @syntax-color-constant;
+@syntax-color-function: @base_green;
+@syntax-color-method: @syntax-color-function;
+@syntax-color-class: @base_green;
+@syntax-color-keyword: @base_pink;
+@syntax-color-tag: @base_fg;
+@syntax-color-attribute:@syntax-color-property;
+@syntax-color-import: @syntax-color-keyword;
+@syntax-color-snippet: @syntax-color-constant;

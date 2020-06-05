@@ -1,0 +1,47 @@
+{
+  "_from": "https://www.atom.io/api/packages/textmate-espresso-syntax/versions/0.1.0/tarball",
+  "_id": "textmate-espresso-syntax@0.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-R3Q2TdVHE91zlrQHTq748g3Lt+YUYn/Pe85wjoSXLwAWxKOd8E6mifVvbIZzyXhl+MROM29dxr4CmcyZygxCBg==",
+  "_location": "/textmate-espresso-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/textmate-espresso-syntax/versions/0.1.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/textmate-espresso-syntax/versions/0.1.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/textmate-espresso-syntax/versions/0.1.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/textmate-espresso-syntax/versions/0.1.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/textmate-espresso-syntax/versions/0.1.0/tarball",
+  "_shasum": "bc7c7424db06670fe28349ec1df96b4a6982925d",
+  "_spec": "https://www.atom.io/api/packages/textmate-espresso-syntax/versions/0.1.0/tarball",
+  "_where": "/tmp/apm-install-dir-1181014-22398-8w4ai.8badh8",
+  "bugs": {
+    "url": "https://github.com/phthhieu/textmate-espresso-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Textmate espresso theme for Atom",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/phthhieu/textmate-espresso-syntax#readme",
+  "keywords": [
+    "syntax",
+    "theme",
+    "textmate",
+    "espresso"
+  ],
+  "license": "MIT",
+  "name": "textmate-espresso-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phthhieu/textmate-espresso-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.1.0"
+}

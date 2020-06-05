@@ -1,0 +1,47 @@
+{
+  "_from": "https://www.atom.io/api/packages/textmate-lazy-syntax/versions/0.1.0/tarball",
+  "_id": "textmate-lazy-syntax@0.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-voX3rTzKIp+KDQCyEi1XgPRlSdzMqMEmVK4A9K9y88gKBAldHCwb9YqFn/bzxpE+20WH5fYFrrGz99pppc9nPg==",
+  "_location": "/textmate-lazy-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/textmate-lazy-syntax/versions/0.1.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/textmate-lazy-syntax/versions/0.1.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/textmate-lazy-syntax/versions/0.1.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/textmate-lazy-syntax/versions/0.1.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/textmate-lazy-syntax/versions/0.1.0/tarball",
+  "_shasum": "befe8573572f9f4b738364387037f3db5b565648",
+  "_spec": "https://www.atom.io/api/packages/textmate-lazy-syntax/versions/0.1.0/tarball",
+  "_where": "/tmp/apm-install-dir-1181014-22471-1kz2035.mb58",
+  "bugs": {
+    "url": "https://github.com/phthhieu/textmate-lazy-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Textmate lazy theme for Atom",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/phthhieu/textmate-lazy-syntax#readme",
+  "keywords": [
+    "syntax",
+    "theme",
+    "textmate",
+    "lazy"
+  ],
+  "license": "MIT",
+  "name": "textmate-lazy-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phthhieu/textmate-lazy-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.1.0"
+}

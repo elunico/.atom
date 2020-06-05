@@ -1,0 +1,47 @@
+{
+  "_from": "https://www.atom.io/api/packages/firefox-dev-syntax/versions/1.6.0/tarball",
+  "_id": "firefox-dev-syntax@1.6.0",
+  "_inBundle": false,
+  "_integrity": "sha512-0nQO4yd/cFaEFgy8AgLn3WOOkmYalAWYTaelDQ8iKExN6ani4o5vIhVl0Qwz5oICtIh9AP8LBnByOzoqhlJxjQ==",
+  "_location": "/firefox-dev-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/firefox-dev-syntax/versions/1.6.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/firefox-dev-syntax/versions/1.6.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/firefox-dev-syntax/versions/1.6.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/firefox-dev-syntax/versions/1.6.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/firefox-dev-syntax/versions/1.6.0/tarball",
+  "_shasum": "0bc92b7553e11042354dd65811ab9d8e6cae5f7e",
+  "_spec": "https://www.atom.io/api/packages/firefox-dev-syntax/versions/1.6.0/tarball",
+  "_where": "/tmp/apm-install-dir-202055-28384-x5mmpx.6k2ka",
+  "bugs": {
+    "url": "https://github.com/maxbook/firefox-dev-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A atom theme Syntax based on firefox developper syntax",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/maxbook/firefox-dev-syntax#readme",
+  "keywords": [
+    "syntax",
+    "theme",
+    "firefox",
+    "developper"
+  ],
+  "license": "MIT",
+  "name": "firefox-dev-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxbook/firefox-dev-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "1.6.0"
+}

@@ -1,0 +1,23 @@
+.syntax--source.syntax--js {
+  .syntax--keyword.syntax--operator {
+    color: @hue-1;
+
+    // keywords are defined in https://github.com/atom/language-javascript/blob/master/grammars/javascript.syntax--cson
+    // search "instanceof" for location
+    &.syntax--delete,
+    &.syntax--in,
+    &.syntax--of,
+    &.syntax--instanceof,
+    &.syntax--new,
+    &.syntax--typeof,
+    &.syntax--void {
+      color: @hue-3;
+    }
+  }
+
+  .syntax--variable.syntax--language {
+    // special keywords, like "this", "arguments", and "super"
+    // get their own color
+    color: @hue-5;
+  }
+}

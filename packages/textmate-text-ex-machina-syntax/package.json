@@ -1,0 +1,47 @@
+{
+  "_from": "https://www.atom.io/api/packages/textmate-text-ex-machina-syntax/versions/0.1.0/tarball",
+  "_id": "textmate-text-ex-machina-syntax@0.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-w/zzhHQO50Pu+G3YqFIHlsa1WAJ77CKAMROo/add8De/zLvJGIBu7ANV2mCnUbi/ClKQCo13kPd1iDvBQhT10w==",
+  "_location": "/textmate-text-ex-machina-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/textmate-text-ex-machina-syntax/versions/0.1.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/textmate-text-ex-machina-syntax/versions/0.1.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/textmate-text-ex-machina-syntax/versions/0.1.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/textmate-text-ex-machina-syntax/versions/0.1.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/textmate-text-ex-machina-syntax/versions/0.1.0/tarball",
+  "_shasum": "d620a851850c3ca66daea5e3d63b330b0da0fd93",
+  "_spec": "https://www.atom.io/api/packages/textmate-text-ex-machina-syntax/versions/0.1.0/tarball",
+  "_where": "/tmp/apm-install-dir-1181014-22830-1ffun4w.ymwv",
+  "bugs": {
+    "url": "https://github.com/phthhieu/textmate-text-ex-machina-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Textmate text-ex-machina theme for Atom",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/phthhieu/textmate-text-ex-machina-syntax#readme",
+  "keywords": [
+    "syntax",
+    "theme",
+    "textmate",
+    "text-ex-machina"
+  ],
+  "license": "MIT",
+  "name": "textmate-text-ex-machina-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phthhieu/textmate-text-ex-machina-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.1.0"
+}

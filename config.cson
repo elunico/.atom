@@ -1,0 +1,47 @@
+"*":
+  "atom-beautify":
+    html:
+      beautify_on_save: true
+      indent_inner_html: true
+    js:
+      beautify_on_save: true
+      brace_style: "collapse-preserve-inline"
+      end_with_comma: true
+      end_with_newline: true
+      eval_code: true
+      jslint_happy: true
+      keep_array_indentation: true
+      object_curly_spacing: true
+      space_after_anon_function: true
+  autosave:
+    enabled: true
+  core:
+    telemetryConsent: "no"
+    themes: [
+      "one-light-ui"
+      "firefox-syntax"
+    ]
+  editor:
+    fontFamily: "Menlo"
+    fontSize: 16
+    lineHeight: 1.4
+    tabType: "soft"
+  "exception-reporting":
+    userId: "94c5732d-5815-48d2-b377-06338ce4d413"
+  "fast-eslint": {}
+  "firefox-syntax":
+    subtheme: "default-light"
+  "linter-eslint":
+    fixOnSave: true
+  "linter-ui-default":
+    panelHeight: 230.83331298828125
+  "platformio-ide-terminal":
+    toggles:
+      autoClose: true
+      runInsertedText: false
+  "python-autopep8":
+    formatOnSave: true
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false

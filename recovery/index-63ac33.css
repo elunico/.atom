@@ -1,0 +1,20 @@
+.whole {
+  margin-left: 25vw;
+  margin-right: 25vw;
+  align-items: center;
+}
+
+.whole > * {
+  padding: 1%;
+}
+
+.guess {
+  font-size: 36pt;
+  font-weight: 800;
+  text-align: center;
+  transition: transform 500ms linear;
+}
+
+#barracks {
+  height: 50vh;
+}

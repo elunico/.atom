@@ -1,0 +1,22 @@
+html
+head
+style(type="text/css").
+  th, tr {
+    min-width: 400px;
+    min-height: 200px;
+  }
+title Search Results
+
+body
+
+if (nResults == 0)
+  h4 No results
+else
+  table
+    th
+      each key in keys
+          td= key
+    each val in vals
+      tr
+        each v in val
+          td= v 

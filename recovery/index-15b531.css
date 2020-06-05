@@ -1,0 +1,9 @@
+.whole {
+  margin-left: 25vw;
+  margin-right: 25vw;
+  align-items: center;
+}
+
+.whole > * {
+  /* padding: 5px; */
+}

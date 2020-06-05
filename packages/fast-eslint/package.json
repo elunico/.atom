@@ -1,0 +1,114 @@
+{
+  "_from": "https://www.atom.io/api/packages/fast-eslint/versions/4.13.0/tarball",
+  "_id": "fast-eslint@4.13.0",
+  "_inBundle": false,
+  "_integrity": "sha512-n0ZhF7yv21htuUAWKd+4qlKnSp2mLDN7vlzXj5wbW+mEgRJ6J07DVbwGsR8xCWK3yDRhtNygUisDeES/dAP5SA==",
+  "_location": "/fast-eslint",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/fast-eslint/versions/4.13.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/fast-eslint/versions/4.13.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/fast-eslint/versions/4.13.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/fast-eslint/versions/4.13.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/fast-eslint/versions/4.13.0/tarball",
+  "_shasum": "7f8e9057f1474789c4d7b10dff4e53857e9a178d",
+  "_spec": "https://www.atom.io/api/packages/fast-eslint/versions/4.13.0/tarball",
+  "_where": "/tmp/apm-install-dir-12052-20953-1yfi38w.7xww",
+  "activationCommands": [],
+  "author": {
+    "name": "Arnaud Dezandee",
+    "email": "dezandee.arnaud@gmail.com",
+    "url": "https://github.com/Adezandee"
+  },
+  "bugs": {
+    "url": "https://github.com/Adezandee/fast-eslint/issues"
+  },
+  "bundleDependencies": false,
+  "configSchema": {
+    "baseConfigExtends": {
+      "title": "BaseConfig Extends",
+      "description": "List of ESLint shareable config names. See [shareable configs](http://eslint.org/docs/developer-guide/shareable-configs). Those will be used as *baseConfig.extends*. Example: **standard, standard-react**",
+      "type": "array",
+      "default": [],
+      "items": {
+        "type": "string"
+      }
+    },
+    "grammarScopes": {
+      "title": "Grammar scopes",
+      "description": "Run `Editor: Log Cursor Scope` to determine file scopes.",
+      "type": "array",
+      "default": [
+        "source.js",
+        "source.jsx",
+        "source.es6",
+        "source.js.jsx",
+        "source.babel",
+        "source.js-semantic"
+      ],
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "dependencies": {
+    "atom-linter": "10.0.0",
+    "atom-package-deps": "5.1.0",
+    "eslint": "^6.8.0",
+    "loophole": "1.1.0"
+  },
+  "deprecated": false,
+  "description": "ESLint linter plugin for JavaScript, lightweight",
+  "devDependencies": {
+    "@semantic-release/apm-config": "8.0.0",
+    "eslint-config-airbnb-base": "14.1.0",
+    "eslint-plugin-import": "2.20.2",
+    "semantic-release": "17.0.7"
+  },
+  "engines": {
+    "atom": ">=1.0.0"
+  },
+  "homepage": "https://github.com/Adezandee/fast-eslint#readme",
+  "keywords": [
+    "atom",
+    "javascript",
+    "linter",
+    "lint",
+    "eslint",
+    "airbnb",
+    "standard",
+    "google",
+    "xo"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "fast-eslint",
+  "package-deps": [
+    "linter:2.0.0"
+  ],
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "2.0.0": "provideLinter"
+      }
+    }
+  },
+  "release": {
+    "extends": "@semantic-release/apm-config"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adezandee/fast-eslint.git"
+  },
+  "scripts": {
+    "pretest": "eslint lib spec/*.js",
+    "test": "apm test"
+  },
+  "version": "4.13.0"
+}

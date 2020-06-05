@@ -1,0 +1,47 @@
+{
+  "_from": "https://www.atom.io/api/packages/textmate-coda-syntax/versions/0.1.0/tarball",
+  "_id": "textmate-coda-syntax@0.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-UPwuZi7KHDzNb6QUkrMZHjLT4bo3NdaWt4RtacuVLuApwTodUvypq7lAExd0MFtG/mIh8rNX01+mr7s8CWvBlA==",
+  "_location": "/textmate-coda-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/textmate-coda-syntax/versions/0.1.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/textmate-coda-syntax/versions/0.1.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/textmate-coda-syntax/versions/0.1.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/textmate-coda-syntax/versions/0.1.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/textmate-coda-syntax/versions/0.1.0/tarball",
+  "_shasum": "39eb5ded9a25bc14eee82328241855bdce7d8b0f",
+  "_spec": "https://www.atom.io/api/packages/textmate-coda-syntax/versions/0.1.0/tarball",
+  "_where": "/tmp/apm-install-dir-1181014-22032-6z0khq.nfxot",
+  "bugs": {
+    "url": "https://github.com/phthhieu/textmate-coda-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Textmate coda theme for Atom",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/phthhieu/textmate-coda-syntax#readme",
+  "keywords": [
+    "syntax",
+    "theme",
+    "textmate",
+    "coda"
+  ],
+  "license": "MIT",
+  "name": "textmate-coda-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phthhieu/textmate-coda-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.1.0"
+}

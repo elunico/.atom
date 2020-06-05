@@ -1,0 +1,47 @@
+{
+  "_from": "https://www.atom.io/api/packages/textmate-tango-syntax/versions/0.1.0/tarball",
+  "_id": "textmate-tango-syntax@0.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-iH+PDRn1XSx1QoTmkT/vTAemA4jp9gesLxsETYPXyE4ai0/mEmAG1QIb0DzZaLPfJoUJn5TJoGz5n9PEg2TMYw==",
+  "_location": "/textmate-tango-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/textmate-tango-syntax/versions/0.1.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/textmate-tango-syntax/versions/0.1.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/textmate-tango-syntax/versions/0.1.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/textmate-tango-syntax/versions/0.1.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/textmate-tango-syntax/versions/0.1.0/tarball",
+  "_shasum": "2d7b844b2294b68f1e4755291cf2c4e5184cedc1",
+  "_spec": "https://www.atom.io/api/packages/textmate-tango-syntax/versions/0.1.0/tarball",
+  "_where": "/tmp/apm-install-dir-1181014-22880-c2mgkj.wgcgm",
+  "bugs": {
+    "url": "https://github.com/phthhieu/textmate-tango-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Textmate tango theme for Atom",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/phthhieu/textmate-tango-syntax#readme",
+  "keywords": [
+    "syntax",
+    "theme",
+    "textmate",
+    "tango"
+  ],
+  "license": "MIT",
+  "name": "textmate-tango-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phthhieu/textmate-tango-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.1.0"
+}

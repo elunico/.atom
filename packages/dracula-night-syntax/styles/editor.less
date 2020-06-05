@@ -1,0 +1,69 @@
+atom-text-editor {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
+  .cursor {
+    position: absolute;
+    border-left: @syntax-cursor-color solid 2px;
+    background-color: transparent;
+  }
+  .line-number {
+     opacity: 1.0;
+   }
+  .gutter {
+    color: @syntax-gutter-text-color;
+    background: @syntax-gutter-background-color;
+    .cursor-line {
+      color: @syntax-gutter-text-color-selected;
+    }
+  }
+  .highlight.find-result .region {
+     background-color: @syntax-result-marker-color;
+     border: none;
+     border-radius: 0;
+   }
+   .highlight.current-result .region {
+      background-color: @syntax-result-marker-color-selected;
+      border: none;
+      border-radius: 0;
+   }
+   .highlight.datatip-highlight-region .region {
+      background-color: @misc_bgDarker;
+   }
+
+   .invisible-character {
+      color: @syntax-invisible-character-color;
+   }
+
+   .indent-guide {
+      color: darken(@syntax-indent-guide-color,12%);
+   }
+   .leading-whitespace.indent-guide {
+      color: @syntax-indent-guide-color;
+   }
+
+   .bracket-matcher .region {
+      border: none;
+ }
+}
+
+.editor.has-selection.is-focused {
+ .highlight.selection .region {
+   background-color: @syntax-selection-color;
+   border-color: @base_orange;
+   border-width: 1px;
+   border-style: solid;
+ }
+}
+
+.editor.is-focused {
+  .line.cursor-line {
+    background-color: @misc_lineHighlight;
+    border: none;
+  }
+}
+
+atom-text-editor .highlight.code-highlight-marker .region {
+   background-color: fade(@base_cyan, 50);
+   border: none;
+   border-radius: 0;
+}

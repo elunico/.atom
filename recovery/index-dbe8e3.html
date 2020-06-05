@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+  	<script src="index.js"></script>
+
+    <title>Sentiment Analysis</title>
+  </head>
+  <body>
+<textarea hidden="true" id="area" rows="15" oninput="analyzeText()" cols="75" placeholder="Enter text to analyze"></textarea>
+<br/>
+<input hidden="true" id="analyze" type='button' onclick="analyzeText()" value="Analyze!"/>
+<br/>
+<p id="icon" style="font-size: 32pt">
+</p>
+<p id="results-abs">
+</p>
+<p id="results-rel">
+</p>
+  </body>
+</html>

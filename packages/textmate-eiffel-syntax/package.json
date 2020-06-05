@@ -1,0 +1,47 @@
+{
+  "_from": "https://www.atom.io/api/packages/textmate-eiffel-syntax/versions/0.1.0/tarball",
+  "_id": "textmate-eiffel-syntax@0.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-MrQTedr4E9LdiZEMwJeA5tXj7X0tK98sFxa1hymVuz7BMBt+j35u+OtHRqnBF1aD7198VRgVfsx5VTypn8LexQ==",
+  "_location": "/textmate-eiffel-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/textmate-eiffel-syntax/versions/0.1.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/textmate-eiffel-syntax/versions/0.1.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/textmate-eiffel-syntax/versions/0.1.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/textmate-eiffel-syntax/versions/0.1.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/textmate-eiffel-syntax/versions/0.1.0/tarball",
+  "_shasum": "b0dad41b27044ea4ec424416f698b4617e63f5ef",
+  "_spec": "https://www.atom.io/api/packages/textmate-eiffel-syntax/versions/0.1.0/tarball",
+  "_where": "/tmp/apm-install-dir-1181014-22735-1lfckiy.z3fp",
+  "bugs": {
+    "url": "https://github.com/phthhieu/textmate-eiffel-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Textmate eiffel theme for Atom",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/phthhieu/textmate-eiffel-syntax#readme",
+  "keywords": [
+    "syntax",
+    "theme",
+    "textmate",
+    "eiffel"
+  ],
+  "license": "MIT",
+  "name": "textmate-eiffel-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phthhieu/textmate-eiffel-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.1.0"
+}

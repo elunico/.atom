@@ -1,0 +1,17 @@
+html
+head
+title Search Results
+
+body
+
+if (nResults == 0)
+  h4 No results
+else
+  table
+  th
+    each key in keys
+      tr= key
+  each val in vals
+    tr
+      each v in val
+        td v 
