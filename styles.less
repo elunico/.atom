@@ -22,9 +22,13 @@
 
 // style the background and foreground colors on the atom-text-editor-element itself
 atom-text-editor {
+
+  // this is for Source Code Pro only
+  font-weight: 500;
   // color: white;
   -webkit-font-feature-settings: "liga" all, "calt" off;
 
+  /* Use this for Firefox Light */
   .syntax--function {
     // functions correct, methods wrong
     // color: #a0b;
@@ -40,6 +44,7 @@ atom-text-editor {
   .syntax--punctuation {
     color: #44494E;
   }
+
 
   // background-color: hsl(180, 24%, 12%);
 }

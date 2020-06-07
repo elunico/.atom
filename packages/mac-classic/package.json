@@ -1,0 +1,42 @@
+{
+  "_from": "https://www.atom.io/api/packages/mac-classic/versions/0.5.0/tarball",
+  "_id": "mac-classic@0.5.0",
+  "_inBundle": false,
+  "_integrity": "sha512-5glQdFA4+ca3lphZsqEgTXrs1r29oaF3/jW4HFdbeQQsadV5fZCtcEyyUtu3wXGIR7GDAJlSK9SocDOTklz/MQ==",
+  "_location": "/mac-classic",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/mac-classic/versions/0.5.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/mac-classic/versions/0.5.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/mac-classic/versions/0.5.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/mac-classic/versions/0.5.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/mac-classic/versions/0.5.0/tarball",
+  "_shasum": "149e4101190e3c0a5e97930c799aef67fd11b88f",
+  "_spec": "https://www.atom.io/api/packages/mac-classic/versions/0.5.0/tarball",
+  "_where": "/tmp/apm-install-dir-202057-6016-vmtzls.ke4vi",
+  "bugs": {
+    "url": "https://github.com/chipersoft/atom-mac-classic/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A conversion of the original TextMate 'Mac Classic' theme",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/chipersoft/atom-mac-classic#readme",
+  "license": "MIT",
+  "name": "mac-classic",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chipersoft/atom-mac-classic.git"
+  },
+  "theme": "syntax",
+  "version": "0.5.0"
+}

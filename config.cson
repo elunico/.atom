@@ -22,7 +22,7 @@
       "firefox-syntax"
     ]
   editor:
-    fontFamily: "Menlo"
+    fontFamily: "Menlos, Source Code Pro for Powerline"
     fontSize: 16
     lineHeight: 1.4
     tabType: "soft"

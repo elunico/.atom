@@ -1,0 +1,89 @@
+.whole {
+  margin-left: 25vw;
+  margin-right: 25vw;
+  align-items: center;
+}
+
+.whole > * {
+  padding: 1%;
+}
+
+.scales-up {
+  transition: transform 350ms ease-in-out;
+}
+
+.guess {
+  font-family: 'DM Mono', monospace;
+  font-size: 36pt;
+  font-weight: 800;
+  text-align: center;
+  transition: transform 500ms linear, filter 3s linear;
+}
+
+#guess-btn {
+  transition: transform 100ms ease-in-out;
+  transform: scale(0.9);
+}
+
+#guessed-already {
+  display: inline-block;
+  font-family: 'DM Mono', monospace;
+  font-weight: 500;
+  background: #ccc;
+  padding: 2%;
+  transition: transform 300ms ease-in-out;
+}
+
+#barracks {
+  margin-top: 5px;
+  height: 50vh;
+  border: thin black solid;
+}
+
+#drawing {
+  height: 100%;
+  width: 100%;
+}
+
+.end-game {
+  font-size: 4.2vw;
+  font-weight: 500;
+  font-family: 'DM Mono', monospace;
+  margin-top: 5px;
+  height: 50vh;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  width:50vw;
+}
+
+#answer {
+  font-family: 'DM Mono', monospace;
+  font-weight: 300;
+  font-size: 4.2vw;
+  letter-spacing: 0.1em;
+  transition: transform 300ms ease-in-out;
+}
+
+#winner {
+  color: green;
+}
+
+#loser {
+  color: red;
+}
+
+@media screen and (max-width: 600px) {
+  #answer {
+    font-family: 'DM Mono', monospace;
+    font-weight: 400;
+    font-size: 21pt;
+    letter-spacing: 0.08em;
+  }
+
+  .eng-game {
+    font-size: 21pt;
+    font-weight: 500;
+    font-family: 'DM Mono', monospace;
+  }
+}

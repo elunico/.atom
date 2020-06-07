@@ -1,0 +1,195 @@
+atom-text-editor {
+
+  background-color: #FFFFFF;
+  color: #000000;
+
+  .gutter {
+    background-color: #FFFFFF;
+    color: #000000;
+  }
+
+  &.is-focused {
+
+    .cursor {
+      border-color: #000000;
+      border-left: 2px solid;
+    }
+
+    .line-number.cursor-line-no-selection,
+    .line.cursor-line {
+      background-color: rgba(0, 0, 0, 0.07);
+    }
+
+  }
+
+  .indent-guide {
+    // box-shadow: inset 1px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: inset 1px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .invisible-character {
+    opacity: 0.2;
+  }
+
+}
+
+atom-text-editor {
+  .selection .region {
+    background-color: rgba(77, 151, 255, 0.33);
+  }
+}
+
+.syntax--comment {
+  font-style: italic;
+  color: #0066FF;
+}
+
+.syntax--keyword, .syntax--storage {
+  font-weight: bold;
+  color: #0000FF;
+}
+
+.syntax--constant.syntax--numeric {
+  color: #0000CD;
+}
+
+.syntax--constant {
+  font-weight: bold;
+  color: #C5060B;
+}
+
+.syntax--constant.syntax--language {
+  font-weight: bold;
+  color: #585CF6;
+}
+
+.syntax--variable.syntax--language, .syntax--variable.syntax--other {
+  color: #318495;
+}
+
+.syntax--string {
+  color: #036A07;
+}
+
+.syntax--constant.syntax--character.syntax--escape, .syntax--string .syntax--source {
+  color: #26B31A;
+}
+
+.syntax--meta.syntax--preprocessor {
+  color: #1A921C;
+}
+
+.syntax--keyword.syntax--control.syntax--import {
+  font-weight: bold;
+  color: #0C450D;
+}
+
+.syntax--entity.syntax--name.syntax--function, .syntax--support.syntax--function.syntax--any-method {
+  font-weight: bold;
+  color: #0000A2;
+}
+
+.syntax--entity.syntax--name.syntax--type {
+  text-decoration: underline;
+}
+
+.syntax--entity.syntax--other.syntax--inherited-class {
+  font-style: italic;
+}
+
+.syntax--variable.syntax--parameter {
+  font-style: italic;
+}
+
+.syntax--storage.syntax--type.syntax--method {
+  color: #70727E;
+}
+
+.syntax--meta.syntax--section .syntax--entity.syntax--name.syntax--section, .syntax--declaration.syntax--section .syntax--entity.syntax--name.syntax--section {
+  font-style: italic;
+}
+
+.syntax--support.syntax--function {
+  font-weight: bold;
+  color: #3C4C72;
+}
+
+.syntax--support.syntax--class, .syntax--support.syntax--type {
+  font-weight: bold;
+  color: #6D79DE;
+}
+
+.syntax--support.syntax--constant {
+  font-weight: bold;
+  color: #06960E;
+}
+
+.syntax--support.syntax--variable {
+  font-weight: bold;
+  color: #21439C;
+}
+
+.syntax--keyword.syntax--operator.syntax--js {
+  color: #687687;
+}
+
+.syntax--invalid {
+  color: #FFFFFF;
+  background-color: #990000;
+}
+
+.syntax--invalid.syntax--deprecated.trailing-whitespace {
+  background-color: #FFD0D0;
+}
+
+// NOTE
+// Disabled these, because they don't play nice with the default line height
+// of 1.5, and don't really add significant usability improvements anyway.
+//
+// .text .source,
+// .string.unquoted {
+//   background-color: rgba(0, 0, 0, 0.05);
+// }
+//
+// .text .source .string.unquoted,
+// .text .source .text .source {
+//   background-color: rgba(0, 0, 0, 0.06);
+// }
+
+.syntax--meta.syntax--tag.syntax--preprocessor.syntax--xml {
+  color: #68685B;
+}
+
+.syntax--meta.syntax--tag.syntax--sgml.syntax--doctype, .syntax--meta.syntax--tag.syntax--sgml.syntax--doctype .syntax--entity, .syntax--meta.syntax--tag.syntax--sgml.syntax--doctype .syntax--string, .syntax--meta.syntax--tag.syntax--preprocessor.syntax--xml, .syntax--meta.syntax--tag.syntax--preprocessor.syntax--xml .syntax--entity, .syntax--meta.syntax--tag.syntax--preprocessor.syntax--xml .syntax--string {
+  color: #888888;
+}
+
+.syntax--string.syntax--quoted.docinfo.syntax--doctype.DTD {
+  font-style: italic;
+}
+
+.syntax--meta.syntax--tag, .syntax--declaration.syntax--tag {
+  color: #1C02FF;
+}
+
+.syntax--entity.syntax--name.syntax--tag {
+  font-weight: bold;
+}
+
+.syntax--entity.syntax--other.syntax--attribute-name {
+  font-style: italic;
+}
+
+.syntax--markup.syntax--heading {
+  font-weight: bold;
+  color: #0C07FF;
+}
+
+.syntax--markup.syntax--quote {
+  font-style: italic;
+  color: #000000;
+}
+
+.syntax--markup.syntax--list {
+  color: #B90690;
+}
