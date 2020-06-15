@@ -17,12 +17,8 @@
     enabled: true
   core:
     telemetryConsent: "no"
-    themes: [
-      "one-light-ui"
-      "firefox-syntax"
-    ]
   editor:
-    fontFamily: "Menlos, Source Code Pro for Powerline"
+    fontFamily: "Noto Monoa,Menlo, Source Code Pro for Powerline"
     fontSize: 16
     lineHeight: 1.4
     tabType: "soft"
@@ -33,8 +29,7 @@
     subtheme: "default-light"
   "linter-eslint":
     fixOnSave: true
-  "linter-ui-default":
-    panelHeight: 230.83331298828125
+  "linter-ui-default": {}
   "platformio-ide-terminal":
     toggles:
       autoClose: true

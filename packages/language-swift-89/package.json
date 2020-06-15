@@ -1,0 +1,41 @@
+{
+  "_from": "https://www.atom.io/api/packages/language-swift-89/versions/0.4.0/tarball",
+  "_id": "language-swift-89@0.4.0",
+  "_inBundle": false,
+  "_integrity": "sha512-39ROG2DISmQXtqV//uYgUm7HNCoS28mnMRO+beATU6aM2E+47eccmkTKxnSrN5v5Wk/O0XTSAV7iZLPVt1UMIg==",
+  "_location": "/language-swift-89",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/language-swift-89/versions/0.4.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/language-swift-89/versions/0.4.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/language-swift-89/versions/0.4.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/language-swift-89/versions/0.4.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/language-swift-89/versions/0.4.0/tarball",
+  "_shasum": "dbf48f30822f1b293c4b264c96ed22a59af54d65",
+  "_spec": "https://www.atom.io/api/packages/language-swift-89/versions/0.4.0/tarball",
+  "_where": "/tmp/apm-install-dir-2020515-22700-yz479y.c3jtg",
+  "bugs": {
+    "url": "https://github.com/kelvin13/atom-swift-89/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Comprehensive Swift syntax highlighting in Atom <3",
+  "engines": {
+    "atom": "*"
+  },
+  "homepage": "https://github.com/kelvin13/atom-swift-89#readme",
+  "license": "GPL3",
+  "name": "language-swift-89",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kelvin13/atom-swift-89.git"
+  },
+  "version": "0.4.0"
+}
